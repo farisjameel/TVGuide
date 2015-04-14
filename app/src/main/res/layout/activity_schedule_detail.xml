@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.orient.app.tvguide.activity.ScheduleDetailActivity">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tittle"
+                android:lines="1"
+                android:id="@+id/scheduleDetailActivityTitle"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Description"
+                android:lines="1"
+                android:id="@+id/scheduleDetailActivityDescription"
+                android:layout_below="@+id/scheduleDetailActivityTitle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Type"
+                android:lines="1"
+                android:id="@+id/scheduleDetailActivityType"
+                android:layout_below="@+id/scheduleDetailActivityDescription"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Date"
+                android:lines="1"
+                android:id="@+id/scheduleDetailActivityDate"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/scheduleDetailActivityType" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Channel Name"
+                android:lines="1"
+                android:id="@+id/scheduleDetailActivityChannelName"
+                android:layout_below="@+id/scheduleDetailActivityDate"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scheduleDetailActivityChannelName"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/iconsLayout">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/drawer_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Remind me" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/accentColor"
+                android:layout_below="@+id/iconsLayout"
+                android:id="@+id/linearLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Detail" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="its about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detailits about more detail its about more detail its about more detail its about more detail" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
